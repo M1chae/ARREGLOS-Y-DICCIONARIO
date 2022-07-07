@@ -1,0 +1,118 @@
+/*
+    *Modificar este archivo para agregar los estilos requeridos
+    *Realizar la importaci'on correspondiente
+    *Crear las clases necesarias para cada elemento
+    *Crear los ID para los elementos creados
+    *Agregar efectos mediante HOVER
+    *
+*/
+.autor{
+    border: 1px;
+    z-index: 3;
+    padding: 100px;
+    background-color: aqua;
+    text-align: center;
+
+}
+
+.datos{
+     background-size: cover;    
+     background-repeat: no-repeat;    
+     margin: 3%;  
+          
+}
+
+.descripcion{
+    text-align: center;    
+    font-family: 'Helvetica, Trebuchet MS, Arial';    
+    color: black;    
+    top: 40%;     left: 60%; right: 60%;    
+    background-color: rgb(77, 143, 143);
+    margin: 20px;
+    padding: 20px;
+    font-weight: bolder;  
+}    
+
+body{
+    background-image: url(lago.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.foto{
+    width: 70%;
+}
+
+.elemento{
+    box-shadow: 0 4px 8px rgb(236, 170, 170);
+    
+    width: 28%;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: #66E1EA;
+    text-align: center;
+}
+
+
+.menu{
+    overflow: hidden;
+    position: fixed;
+    float: left;
+    z-index: 3;
+    font-family: Helvetica;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    background-color: rgb(199, 219, 228);
+    
+}
+
+.menu a{
+    font-family: helvetica;
+    font-size: small;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(22, 21, 21);
+    transition-duration: 0.5s;
+}
+
+.menu a:hover{
+    font-weight: 900;
+    background: rgb(255, 255, 255);
+    color: rgb(59, 150, 107);
+    border: 6px solid rgb(23, 150, 133);
+    font-size: large;
+
+}
+
+button{
+    background-color: rgb(117, 76, 156);
+    color: black;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px 12px;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    margin: 4px 2px;    
+}
+
+p{
+    color: black;
+    font-size: 15px;
+}
+
+input{
+    color: #3f0d9c;
+    font-size: 15px;
+}
